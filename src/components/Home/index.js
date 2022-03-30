@@ -1,10 +1,13 @@
-import React from 'react'
-import './styles.css'
+import React from 'react';
+// styles
+import {Container} from './styles';
+// components
+import Header from '../Header';
 
 export default function Home() {
   return (
-    <>
-        <h1 className="titulo">home</h1>
-    </>
+    <Container>
+        <Header />
+    </Container>
   )
 }

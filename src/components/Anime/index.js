@@ -1,10 +1,9 @@
-import React from 'react'
-import './styles.css'
+import React from 'react';
 
 export default function Anime() {
   return (
     <>
-        <h1 className="titulo">anime</h1>
+        <h1>anime</h1>
     </>
   )
 }
