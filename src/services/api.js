@@ -1,15 +1,11 @@
 import axios from "axios";
 
-const BASE_URL = 'https://anime-facts-rest-api.herokuapp.com/api/v1';
-
-const apiGet = () => {
-    axios.get(`${BASE_URL}`)
-    .then((response) => {
-        console.log(response);
-    })
-    .catch((error) => {
-        console.log(error);
-    })
+export default async function apiGetAll(url) {
+    try {
+      const response = await axios.get(url);
+      const data = await response.data.data;
+      return data;
+    } catch (error) {
+      console.error(error);
+    }
 }
-
-export default apiGet;

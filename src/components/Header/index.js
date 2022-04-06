@@ -1,18 +1,10 @@
-import React, { useEffect } from 'react';
-import apiGet from '../../services/api';
-import { Container, Content, Text } from './styles';
+import React from 'react';
+import { Container, Text } from './styles';
 
 export default function Header() {
-
-  useEffect(() => {
-    apiGet();
-  }, []);
-
   return (
     <Container>
-        <Content>
-            <Text>Did you know?</Text>
-        </Content>
+      <Text>Did you know?</Text>
     </Container>
   )
 }

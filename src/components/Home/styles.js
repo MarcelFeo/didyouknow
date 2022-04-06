@@ -10,3 +10,13 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
 `;
+
+export const ImgContainer = styled.div`
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: -10rem;
+`;
