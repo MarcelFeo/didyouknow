@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // services
-import apiGetAll from '../../services/api';
+import { apiGetAll } from '../../services/api';
 // styles
 import { Container, ImgContainer } from './styles';
 // components
@@ -33,6 +33,7 @@ export default function Home() {
               <ImgCard 
                 key={item.anime_id} 
                 anime_img={item.anime_img}
+                anime_name={item.anime_name}
                 data={data}
               />
             ))}

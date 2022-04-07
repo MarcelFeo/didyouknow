@@ -3,9 +3,10 @@ import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
   :root {
     --background: #000;
-    --text-color: #67178F;
-    --text-body: #969CB3;
+    --text-color: #9D12A6;
+    --text-body: #8049A8;
     --shape: #FFFFFF;
+    --hover: #C684F5;
   }
   * {
     margin: 0;
