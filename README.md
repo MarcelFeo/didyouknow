@@ -4,7 +4,10 @@
 ## 💻 Sobre o projeto
 
 O projeto consiste em site com diversas curiosidades de vários animes
+
 👉 Link do Projeto => https://didyouknow.herokuapp.com/
+
+https://62aa708ff3e87a02ac6e91eb--tranquil-brigadeiros-97916e.netlify.app/
 
 ## 🛠 Tecnologias
 
